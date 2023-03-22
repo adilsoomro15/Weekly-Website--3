@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(0, 124, 0);
+}
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).webp")no-repeat center center;
+    background-size: cover;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
