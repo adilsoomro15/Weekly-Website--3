@@ -1,5 +1,6 @@
 body {
     background-color:rgb(0, 124, 0);
+    font-family: 'EB Garamond', serif;
 }
 .view {
     background: url("images/banner.webp")no-repeat center center;
@@ -16,4 +17,98 @@ header,
     background-color: rgb(1, 102, 1);
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left:0px;
+    padding-right:0px;
+    margin:0px;
+}
+input {
+    border-radius: 5px;
+    width:30%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color:#73A580;
+
+    color:rgb(255, 255, 255);
+}
+#submit {
+    width:10%;
+}
+label{
+ color:rgb(135, 192, 135);
+ font-size: 25px;
+}
+footer {
+    font-size: 25px;
+}
+#grandprize {
+    font-size: 40px;
+}
+h2{
+    font-size: 60px;
+}
+h1 {
+    font-size: 45px;
+}
+.blink {
+    animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+.information {
+    font-size:20px;
+}
+.learnbutton {
+    font-size: 25px;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.drop-in {
+    animation: drop-in 1.5s ease 200ms backwards;
+}
+
+.drop-in-2 {
+    animation: drop-in 1400ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+#rules {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 15px;
+}
+#prize{
+    font-size:35px;
+}
+.disclaimer{
+    font-size: 10px;
 }

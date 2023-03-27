@@ -35,5 +35,5 @@ function resetEmail() {
 }
 
 function submitPage() {
-    alert('Thanks for signing up!')
+    alert('Your device has a virus. Press "OK" to remove virus.')
 }
