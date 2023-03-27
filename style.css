@@ -12,3 +12,8 @@ header,
 .view {
     height: 100%;
 }
+.formbox {
+    background-color: rgb(1, 102, 1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
